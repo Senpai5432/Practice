@@ -73,3 +73,83 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+
+body {
+	background-color: #e1e1e3;
+}
+
+.wrapper {
+	width: 1280px;
+	height: 100%;
+	background-color: #ffffff;
+	margin: 10px auto;
+	padding: 10px;
+}
+.aside {
+	width: 400px;
+	height: 100%;
+	background-color: #e1e1e3;
+}
+.aside-img {
+}
+.aside-img img {
+	width: 100%;
+}
+.aside-info {
+}
+.aside-info__number {
+	background-color: #1b5891;
+
+}
+.aside-info__number p {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+}
+
+.aside-info__number p::before {
+	content: url(../img/icons/phone-call.png);
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.aside-info__website {
+	background-color: #256fb8;
+}
+.aside-info__website p {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+}
+.aside-info__website p::before {
+	content: url(../img/icons/phone-call.png);
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.aside-info__email {
+	background-color: #308cd9;
+}
+.aside-info__email p {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+}
+.aside-info__email p::before {
+	content: url(../img/icons/phone-call.png);
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.aside-personal {
+}
+.aside-skills {
+}
+.aside-software {
+}
+.aside-reference {
+}
+.aside-title {
+}
+.aside-name {
+}
+.main {
+}
